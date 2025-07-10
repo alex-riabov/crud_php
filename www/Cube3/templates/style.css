@@ -1,0 +1,30 @@
+/* templates/style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.flash {
+    padding: 10px;
+    margin: 10px 0;
+}
+.flash.success {
+    background: #dff0d8;
+}
+.flash.danger {
+    background: #f2dede;
+}
